@@ -11,4 +11,3 @@ Quickly convert videos to MP4, MKV, AVI, or any format of your choice.
 Re-encode videos with specific codec parameters for optimized quality or file size.
 Batch-convert entire libraries with custom FFMPEG commands to standardize formats.
 Use hardware-accelerated encoding to save time on GPU-compatible machines.
-Simple FFMPEG Video Converter is the ideal tool for anyone looking to harness the power of FFMPEG without diving into the command line. Perfect for video enthusiasts, content creators, and professionals who need reliable, customizable video conversion.
