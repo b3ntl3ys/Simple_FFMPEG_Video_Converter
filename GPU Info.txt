@@ -1,0 +1,64 @@
+NVIDIA Encode/Decode Supported Formats
+https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new
+
+------------------------------------------------------------
+NVIDIA NVENC (Encoder) Support by Series
+------------------------------------------------------------
+Series          NVENC Generation        NVENC Units per Chip
+------------------------------------------------------------
+7xx Series      4th Generation NVENC    1
+9xx Series      5th Generation NVENC    GTX 960 and below: 1
+                                        GTX 965M and above: 2
+10xx Series     6th Generation NVENC    GTX 1050 & 1060: 1
+                                        GTX 1070 & above: 2
+16xx Series     6th/7th Generation      1
+20xx Series     7th Generation          1
+30xx Series     7th Generation          1
+40xx Series     8th Generation NVENC    RTX 4070 & below: 1
+                                        RTX 4070 Ti & above: 2
+50xx Series     9th Generation NVENC    RTX 5070: 1
+                                        RTX 5070 Ti & RTX 5080: 2
+                                        RTX 5090: 3
+
+------------------------------------------------------------
+NVIDIA NVDEC (Decoder) Support by Series
+------------------------------------------------------------
+Series          NVDEC Generation        NVDEC Units per Chip
+------------------------------------------------------------
+7xx Series      1st Generation NVDEC    1
+9xx Series      2nd Generation NVDEC    GTX 750 / 950 / 960: 1
+                                        GTX 965M & above: 1
+10xx Series     3rd Generation NVDEC    1
+16xx Series     4th Generation NVDEC    GTX 1630 & above: 1
+20xx Series     4th Generation NVDEC    1
+30xx Series     5th Generation NVDEC    1
+40xx Series     5th Generation NVDEC    1
+50xx Series     6th Generation NVDEC    RTX 5070 & 5070 Ti: 1
+                                        RTX 5080 & RTX 5090: 2
+
+------------------------------------------------------------
+AMD Video Encode Support (VCE/VCN)
+------------------------------------------------------------
+Series                            Encode Generation
+------------------------------------------------------------
+Radeon HD 7000 Series             VCE 1.0
+Radeon HD 7790, R9/R7 200 Series  VCE 2.0
+Radeon RX 400/500 Series          VCE 3.0
+Radeon RX Vega Series             VCE 4.0
+Radeon VII, RX Vega, Some APUs    VCN 1.0
+Radeon RX 5000 Series (Navi 10/14) VCN 2.0
+Radeon RX 6000 Series (Navi 2x)   VCN 3.0
+Radeon RX 7000 Series (Navi 3x)   VCN 4.0
+
+------------------------------------------------------------
+AMD Video Decode Support (UVD/VCN)
+------------------------------------------------------------
+Series                            Decode Generation
+------------------------------------------------------------
+Radeon HD 5000 to 6000 Series     UVD 2.x – 3.x
+Radeon HD 7000 to R9 200/300      UVD 4.x – 6.x
+Radeon RX 400/500 Series          UVD 6.x
+Radeon RX Vega Series, Radeon VII VCN 1.0
+Radeon RX 5000 Series (Navi 10/14) VCN 2.0
+Radeon RX 6000 Series (Navi 2x)   VCN 3.0
+Radeon RX 7000 Series (Navi 3x)   VCN 4.0
